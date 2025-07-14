@@ -1,0 +1,95 @@
+.home {
+   position: relative;
+   height: 100vh;
+   overflow: hidden;
+   padding-top: 8rem;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../pictures/computer-1833058_1280.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.picture-home,
+.titles-home {
+  position: relative;
+  z-index: 2; /* pour que le contenu passe au-dessus de l'overlay */
+}
+
+.picture-home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 2rem;
+   animation: slideInLeft 1s ease-out forwards;
+}
+
+.img-home {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   border: 5px solid grey;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.titles-home {
+   color: white;
+   text-align: center;
+   animation: slideInRight 1s ease-out forwards;
+}
+
+.btns-home {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  animation: slideInBottom 1s ease-out forwards;
+}
+
+.custom-btn:hover {
+  background-color: #000 !important;
+  color: white !important;
+}
+
+@keyframes slideInLeft {
+   from {
+      transform: translateX(-400px);
+      opacity: 0;
+   }
+   to {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+
+@keyframes slideInRight {
+   from {
+      transform: translateX(400px);
+      opacity: 0;
+   }
+   to {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+
+@keyframes slideInBottom {
+   from {
+      transform: translateY(100px);
+      opacity: 0;
+   }
+   to {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
