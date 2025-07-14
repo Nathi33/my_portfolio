@@ -3,12 +3,10 @@ import React from 'react';
 
 const about = () => {
   return (
-     <section id="about" className="about">
+     <section id="about" className="section-about">
 
-        <div className="title-about">
-          <h2>A PROPOS DE MOI ...</h2>
-        </div>
-
+        <h2 className="title-about">A PROPOS DE MOI ...</h2>
+        
         <div className="text-about">
           <p>
             Après plus de 15 ans passés dans le secteur médico-social en tant qu’aide-soignante puis secrétaire médicale, j’ai choisi de me reconvertir vers un domaine qui m’a toujours attirée : le développement web.
