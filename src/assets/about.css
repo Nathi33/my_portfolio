@@ -1,0 +1,13 @@
+.title-about {
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.text-about {
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 10rem;;
+    margin-right: 10rem;
+}

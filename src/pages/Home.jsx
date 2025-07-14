@@ -24,10 +24,9 @@ const home = () => {
           <Button variant="light" href="#about" className="custom-btn">Mon histoire</Button>
         </div>
       </section>
-
-      <section id="about">
-        <About />
-      </section>
+      
+      <About />
+      
 
       <section id="skills">
         <Skills />
