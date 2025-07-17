@@ -9,7 +9,7 @@ import Contact from '../components/Contact.jsx';
 
 import avatar from '../pictures/avatar.png';
 
-const home = () => {
+const Home = () => {
   return (
     <main>
       <section className="home">
@@ -26,15 +26,9 @@ const home = () => {
       </section>
       
       <About />
+      <Skills />
+      <Projects />
       
-
-      <section id="skills">
-        <Skills />
-      </section>
-
-      <section id="projects">
-        <Projects />
-      </section>
 
       <section id="contact">
         <Contact />
@@ -43,4 +37,4 @@ const home = () => {
   );
 }
 
-export default home;
+export default Home;
