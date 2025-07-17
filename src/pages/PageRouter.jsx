@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './Layout.jsx';
 import Home from './Home.jsx';
 
-const pageRouter = () => {
+const PageRouter = () => {
   return (
     <Routes>
         <Route element={<Layout />}>
@@ -16,4 +16,4 @@ const pageRouter = () => {
   );
 }
 
-export default pageRouter;
+export default PageRouter;

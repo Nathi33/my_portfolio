@@ -1,7 +1,7 @@
 import "../assets/about.css";
 import React from 'react';
 
-const about = () => {
+const About = () => {
   return (
      <section id="about" className="section-about">
 
@@ -26,4 +26,4 @@ const about = () => {
   );
 }
 
-export default about;
+export default About;

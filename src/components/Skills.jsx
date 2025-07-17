@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 import imageCV from '../pictures/image-cv.png';
 
-const skills = () => {
+const Skills = () => {
   return (
     <section id="skills" className='section-skills'>
       <h2 className='title-skills'>MES COMPETENCES</h2>
@@ -80,4 +80,4 @@ const skills = () => {
   );
 }
 
-export default skills;
+export default Skills;
