@@ -1,0 +1,56 @@
+.contact-section {
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.title-contact {
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.status-message {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    width: 45% !important;
+    background-color: #f8f9fa !important;
+    color: green !important;
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+    border: none !important;
+}
+
+.container-contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.input {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.required-info {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.btn-contact:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: solid 1px #000 !important;
+}
+
+
+
+
+

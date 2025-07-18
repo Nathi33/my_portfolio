@@ -28,11 +28,8 @@ const Home = () => {
       <About />
       <Skills />
       <Projects />
-      
+      <Contact />
 
-      <section id="contact">
-        <Contact />
-      </section>
     </main>
   );
 }
