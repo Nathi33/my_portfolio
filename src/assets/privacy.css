@@ -1,0 +1,16 @@
+.privacy-title {
+    margin-bottom: 2rem;
+}
+
+.privacy-text {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.privacy-text-bis {
+    margin-bottom: 0;
+}
+
+.privacy-list {
+    list-style-type: "- ";
+}

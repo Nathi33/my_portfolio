@@ -13,7 +13,11 @@
 }
 
 .custom-navbar .logo, .menu a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: white !important;
+}
+
+.custom-navbar .menu a:hover {
+  text-decoration: underline !important;
 }
