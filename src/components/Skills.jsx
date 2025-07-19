@@ -16,21 +16,21 @@ const Skills = () => {
           <div className="skills-list-left">
             <p className="titled-skills">Back-end</p>
               <ul className="skills-list-ul">
-                <SkillBar label="Python" value={85} />
-                <SkillBar label="Django" value={80} />
-                <SkillBar label="PHP" value={75} />
-                <SkillBar label="Symfony" value={70} />
-                <SkillBar label="Node.js" value={70} />
+                <SkillBar label="Python" value={60} />
+                <SkillBar label="Django" value={75} />
+                <SkillBar label="PHP" value={60} />
+                <SkillBar label="Symfony" value={75} />
+                <SkillBar label="Node.js" value={75} />
               </ul>
             
             <p className="titled-skills">Front-end</p>
               <ul className="skills-list-ul">
                 <SkillBar label="HTML" value={90} />
                 <SkillBar label="CSS" value={85} />
-                <SkillBar label="JavaScript" value={80} />
-                <SkillBar label="React" value={75} />
+                <SkillBar label="JavaScript" value={75} />
+                <SkillBar label="React" value={85} />
                 <SkillBar label="Vue" value={70} />
-                <SkillBar label="Angular" value={70} />
+                <SkillBar label="Angular" value={75} />
               </ul>
           </div>
 
@@ -38,19 +38,19 @@ const Skills = () => {
             <p className="titled-skills">CMS</p>
               <ul className="skills-list-ul">
                 <SkillBar label="WordPress" value={90} />
-                <SkillBar label="Prestashop" value={80} />
+                <SkillBar label="Prestashop" value={70} />
               </ul>
 
             <p className="titled-skills">Base de données</p>
               <ul className="skills-list-ul">
-                <SkillBar label="MySQL" value={85} />
-                <SkillBar label="MongoDB" value={80} />
+                <SkillBar label="MySQL" value={80} />
+                <SkillBar label="MongoDB" value={75} />
               </ul>
 
             <p className="titled-skills">Outils et autres</p>
               <ul className="skills-list-ul">
                 <SkillBar label="GitHub" value={90} />
-                <SkillBar label="Figma" value={85} />
+                <SkillBar label="Figma" value={90} />
               </ul>
           </div>
         </div>
