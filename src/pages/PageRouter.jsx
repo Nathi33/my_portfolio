@@ -5,6 +5,7 @@ import Layout from './Layout.jsx';
 import Home from './Home.jsx';
 import LegalMentions from './LegalMentions.jsx';
 import PrivacyPolicy from './PrivacyPolicy.jsx';
+import NotFound from './NotFound.jsx';
 
 const PageRouter = () => {
   return (
@@ -14,6 +15,7 @@ const PageRouter = () => {
             <Route path="/" element={<Home />} />
             <Route path="/legal-mentions" element={<LegalMentions />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="*" element={<NotFound />} />
         </Route>
     </Routes>
     

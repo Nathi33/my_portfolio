@@ -1,0 +1,14 @@
+.scrollToTopButton {
+  display: none; /* Cacher le bouton par défaut*/
+  position: fixed;
+  bottom: 1.875rem;
+  right: 1.25rem;
+  cursor: pointer;
+  display: flex;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.scrollToTopButton:hover {
+  color: rgb(98, 21, 98);
+}

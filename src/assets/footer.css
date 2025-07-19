@@ -1,7 +1,22 @@
+.section-footer {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
 .footer-links {
     text-decoration: none !important;
 }
 
 .footer-links:hover {
     text-decoration: underline !important;
+}
+
+.logo {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  margin-right: 1.25rem;
+  color: #fff;
+}
+
+.logo:hover {
+    transform: scale(1.3);
 }

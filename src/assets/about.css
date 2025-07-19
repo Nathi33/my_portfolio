@@ -1,10 +1,11 @@
 .section-about {
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
 .title-about {
     font-weight: bold;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     text-align: center;
 }
@@ -14,4 +15,13 @@
     text-align: justify;
     margin-left: 10rem;;
     margin-right: 10rem;
+}
+
+@media (max-width: 768px) {
+  .text-about {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
