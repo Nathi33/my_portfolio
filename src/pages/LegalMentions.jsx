@@ -12,10 +12,10 @@ const LegalMentions = () => {
       </p>
 
       <p><strong>Hébergement :</strong><br />
-        Render<br />
-        Adresse : Render, 123 Mission Street, San Francisco, CA 94105, USA<br />
-        Site : <a href="https://render.com" target="_blank" rel="noopener noreferrer">render.com</a><br />
-        Contact : support@render.com
+        OVH SAS<br />
+        Adresse : 2 rue Kellermann 59100 Roubaix - France <br />
+        Site : <a href="https://www.ovh.com" target="_blank" rel="noopener noreferrer" className="legal-links">ovh.com</a><br />
+        Contact : <a href="https://www.ovh.com/fr/support/" target="_blank" rel="noopener noreferrer" className="legal-links">Support OVH</a>
       </p>
 
       <p><strong>Propriété intellectuelle :</strong><br />

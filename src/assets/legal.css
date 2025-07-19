@@ -1,3 +1,14 @@
 .legal-title {
     margin-bottom: 2rem;
 }
+
+.legal-links {
+    color: rgb(98, 21, 98);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.legal-links:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
