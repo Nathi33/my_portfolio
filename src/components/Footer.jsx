@@ -15,24 +15,24 @@ const Footer = () => {
       <Container>
         <p className="mb-2">© Nathalie Darnaudat | {new Date().getFullYear()}</p> 
         <div className="container-logo">
-            <Link
+            <a
+              href="https://github.com/Nathi33"
               target="_blank"
               rel="noopener noreferrer"
-              to="https://github.com/Nathi33"
             >
               <FontAwesomeIcon className="logo" icon={faGithub} />
-            </Link>
-            <Link
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nathalie-darnaudat-067a8a307"
               target="_blank"
               rel="noopener noreferrer"
-              to="www.linkedin.com/in/nathalie-darnaudat-067a8a307"
             >
               <FontAwesomeIcon className="logo" icon={faLinkedin} />
-            </Link>
+            </a>
           </div>
         <div className="container-links">
-            <a href="/legal-mentions" className="footer-links text-light me-3">Mentions légales</a>
-            <a href="/privacy-policy" className=" footer-links text-light">Confidentialité</a>
+            <Link to="/legal-mentions" className="footer-links text-light me-3">Mentions légales</Link>
+            <Link to="/privacy-policy" className=" footer-links text-light">Confidentialité</Link>
           </div>
       </Container>
     </footer>
