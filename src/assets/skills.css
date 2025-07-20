@@ -11,6 +11,14 @@
     text-align: center;
 }
 
+.skills-intro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
 .skills-content {
     display: flex; 
     gap: 8rem;
