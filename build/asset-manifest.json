@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.74307fb9.css",
+    "main.js": "./static/js/main.c5147a25.js",
+    "static/js/453.438d9e50.chunk.js": "./static/js/453.438d9e50.chunk.js",
+    "static/media/computer-1833058_1280.png": "./static/media/computer-1833058_1280.110c0ff8bc02e4f08a05.png",
+    "static/media/Projet_WordPress.png": "./static/media/Projet_WordPress.b8a8f501f9d30469dd72.png",
+    "static/media/Projet_Figma.png": "./static/media/Projet_Figma.66f808614c6d23378311.png",
+    "static/media/Projet_Symfony.png": "./static/media/Projet_Symfony.20da9884cd29e65c322e.png",
+    "static/media/image-cv.png": "./static/media/image-cv.22fa2fcaf6aeecfbcb01.png",
+    "static/media/Projet_Django.png": "./static/media/Projet_Django.f412585b5cca51a9d384.png",
+    "static/media/image-notes.png": "./static/media/image-notes.5a50557bbedfef7bc414.png",
+    "static/media/Projet_Angular.png": "./static/media/Projet_Angular.e8cf1cd51826991acee0.png",
+    "static/media/Projet_Nodejs.png": "./static/media/Projet_Nodejs.ec4082d5d07451fede37.png",
+    "static/media/avatar.png": "./static/media/avatar.f174ba17ee61660ae44c.png",
+    "static/media/oops.png": "./static/media/oops.fbd940e86cbc662480d5.png",
+    "index.html": "./index.html",
+    "main.74307fb9.css.map": "./static/css/main.74307fb9.css.map",
+    "main.c5147a25.js.map": "./static/js/main.c5147a25.js.map",
+    "453.438d9e50.chunk.js.map": "./static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74307fb9.css",
+    "static/js/main.c5147a25.js"
+  ]
+}
